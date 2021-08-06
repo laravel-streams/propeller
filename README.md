@@ -14,9 +14,11 @@
 
 ## Introduction
 
-Breeze provides a minimal and simple starting point for building a Laravel application with authentication. Styled with Tailwind, Breeze publishes authentication controllers and views to your application that can be easily customized based on your own application's needs.
+Propeller is an application starter kit based on [Laravel Breeze](https://github.com/laravel/breeze) and pre-configured with [Laravel Streams](https://github.com/laravel-streams/streams).
 
-Laravel Breeze is powered by Blade and Tailwind. If you're looking for a more robust Laravel starter kit that includes two factor authentication, Livewire / Inertia support, and more, check out [Laravel Jetstream](https://jetstream.laravel.com).
+Propeller provides a minimal and simple starting point for building a Laravel application with authentication. Styled with Tailwind, Propeller publishes authentication controllers and views to your application that can be easily customized based on your own application's needs.
+
+Propeller is powered by Blade, Tailwind, and Streams. <!-- If you're looking for a more robust Laravel starter kit that includes two factor authentication, Livewire / Inertia support, and more, check out [Laravel Jetstream](https://jetstream.laravel.com). -->
 
 Getting started couldn't be easier:
 
