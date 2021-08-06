@@ -1,11 +1,11 @@
 {
-    "name": "laravel/breeze",
-    "description": "Minimal Laravel authentication scaffolding with Blade and Tailwind.",
-    "keywords": ["laravel", "auth"],
+    "name": "streams/propeller",
+    "description": "Minimal Laravel Streams authentication scaffolding with Blade and Tailwind.",
+    "keywords": ["laravel", "streams", "auth"],
     "license": "MIT",
     "support": {
-        "issues": "https://github.com/laravel/breeze/issues",
-        "source": "https://github.com/laravel/breeze"
+        "issues": "https://github.com/laravel-streams/propeller/issues",
+        "source": "https://github.com/laravel-streams/propeller"
     },
     "authors": [
         {
