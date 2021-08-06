@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Breeze\Console;
+namespace Streams\Propeller\Console;
 
 use Illuminate\Console\Command;
 use Illuminate\Filesystem\Filesystem;
@@ -14,8 +14,7 @@ class InstallCommand extends Command
      *
      * @var string
      */
-    protected $signature = 'breeze:install {stack=blade : The development stack that should be installed (blade,react,vue)}
-                            {--inertia : Indicate that the Vue Inertia stack should be installed (Deprecated)}
+    protected $signature = 'propeller:install {stack=blade : The development stack that should be installed (blade,react,vue)}
                             {--composer=global : Absolute path to the Composer binary which should be used to install packages}';
 
     /**
@@ -32,6 +31,8 @@ class InstallCommand extends Command
      */
     public function handle()
     {
+        $this->requireComposerPackages('streams/core:^2.0', 'streams/api:^1.0', 'streams/ui:^1.0');
+        
         if ($this->option('inertia') || $this->argument('stack') === 'vue') {
             return $this->installInertiaVueStack();
         }
