@@ -1,14 +1,14 @@
-<p align="center"><img src="/art/logo.svg" alt="Logo Laravel Breeze"></p>
+<p align="center"><img src="/art/logo.svg" alt="Logo Propeller"></p>
 
 <p align="center">
-    <a href="https://packagist.org/packages/laravel/breeze">
-        <img src="https://img.shields.io/packagist/dt/laravel/breeze" alt="Total Downloads">
+    <a href="https://packagist.org/packages/streams/propeller">
+        <img src="https://img.shields.io/packagist/dt/streams/propeller" alt="Total Downloads">
     </a>
-    <a href="https://packagist.org/packages/laravel/breeze">
-        <img src="https://img.shields.io/packagist/v/laravel/breeze" alt="Latest Stable Version">
+    <a href="https://packagist.org/packages/streams/propeller">
+        <img src="https://img.shields.io/packagist/v/streams/propeller" alt="Latest Stable Version">
     </a>
-    <a href="https://packagist.org/packages/laravel/breeze">
-        <img src="https://img.shields.io/packagist/l/laravel/breeze" alt="License">
+    <a href="https://packagist.org/packages/streams/propeller">
+        <img src="https://img.shields.io/packagist/l/streams/propeller" alt="License">
     </a>
 </p>
 
@@ -27,14 +27,16 @@ laravel new my-app
 
 cd my-app
 
-composer require laravel/breeze --dev
+composer require streams/core streams/api streams/ui
+
+composer require streams/propeller --dev
 
 php artisan breeze:install
 ```
 
 ## Contributing
 
-Thank you for considering contributing to Breeze! You can read the contribution guide [here](.github/CONTRIBUTING.md).
+Thank you for considering contributing to Propeller! You can read the contribution guide [here](.github/CONTRIBUTING.md).
 
 ## Code of Conduct
 
@@ -42,8 +44,8 @@ In order to ensure that the Laravel community is welcoming to all, please review
 
 ## Security Vulnerabilities
 
-Please review [our security policy](https://github.com/laravel/breeze/security/policy) on how to report security vulnerabilities.
+Please review [our security policy](https://github.com/laravel/propeller/security/policy) on how to report security vulnerabilities.
 
 ## License
 
-Laravel Breeze is open-sourced software licensed under the [MIT license](LICENSE.md).
+Propeller is open-sourced software licensed under the [MIT license](LICENSE.md).
